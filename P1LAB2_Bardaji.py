@@ -19,6 +19,7 @@ product_name = input ("enter product name: ")
 product_count = input("enter product count: ")
 product_price = input("enter unit price: ")
 
+
 # processing 
 product_count = int(product_count) # convert string to integer: "100" -> 100
 product_price = float(product_price) # convert string to float: float "3.25" -> 3.25
