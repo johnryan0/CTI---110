@@ -1,5 +1,5 @@
 # CTI-11
-# P1LAB2 - selling things 
+# P1LAB2 -  A program that demonstrates Input, Processing, and Output by calculating product sales. 
 # John
 # 9/3/26
 
