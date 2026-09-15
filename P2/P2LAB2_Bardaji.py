@@ -15,10 +15,12 @@ cars = {
 print(cars)
 car_keys = cars.keys()
 print(car_keys)
+
 # choose the car
 car = input("Enter a vehicle to see its mpg: ")
 mpg = cars[car]
 print(f"The MPG of a {car} is {mpg} miles per gallon.")
+
 # Ask user for miles, output gas used 
 miles = float(input(f"How many miles will you drive the {car}? "))
 gallons_used = miles / mpg # miles divided by miles per gallon gives units in gallons
