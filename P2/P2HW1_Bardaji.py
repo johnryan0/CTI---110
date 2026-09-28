@@ -27,10 +27,10 @@ Results = Budget - Expenses
 
 # Show processed input
 print("----------Travel Expenses----------")
-print(f"Location: {Destination:>21}")
-print(f"Initial budget: {Budget:>16}")
-print(f"Fuel: {Gas:>25}")
-print(f"Accomodation: {Accomodation:>17}")
-print(f"Food: {Food:>25}")
-print(f"Remaining balance: {Results:>12}")
-print("----------------------------------")
+print(f"{'Location:':<20} {Destination}")
+print(f"{'Initial budget:':<20} ${Budget:,.2f}")
+print(f"{'Fuel:':<20} ${Gas:,.2f}")
+print(f"{'Accomodation:':<20} ${Accomodation:,.2f}")
+print(f"{'Food:':<20} ${Food:,.2f}")
+print(f"{'Remaining balance:':<20} ${Results:,.2f}")
+print("-----------------------------------")
