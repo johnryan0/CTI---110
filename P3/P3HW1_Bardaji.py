@@ -33,3 +33,9 @@ elif avg >= 70:
 elif avg >= 60:
     print('Your grade is: F')
 
+print('-------------Grades--------------')
+print(f"{'Lowest Grade:':<21}{low:.1f}")
+print(f"{'Highest Grade:':<21}{high:.1f}")
+print(f"{'Sum of Grades:':<21}{total:.1f}")
+print(f"{'Average:':<21}{avg:.1f}")
+print('---------------------------------')
