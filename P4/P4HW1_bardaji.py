@@ -6,11 +6,11 @@
 # Keep asking until the user enters at least two scores.
 # Create an empty list to store valid scores.
 # Repeat once for each score:
-#     Ask the user to enter a score.
-#     While the score is below 0 or above 100:
-#         Tell the user the score is invalid.
-#         Ask the user to enter that score again.
-#     Add the valid score to the list.
+# Ask the user to enter a score.
+# While the score is below 0 or above 100:
+# Tell the user the score is invalid.
+# Ask the user to enter that score again.
+# Add the valid score to the list.
 # Find and display the lowest score.
 # Remove one occurrence of the lowest score from the list.
 # Calculate the average of the remaining scores.
